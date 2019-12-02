@@ -1,0 +1,126 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.introduction{
+    background-image: url(../images/top_bg.jpg);
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flexmid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bordered{
+    border: 1px solid ;
+}
+.floatright{
+    float: right;
+}
+.floatleft{
+    float: left;
+}
+.rowreverse{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.rowleft{
+    margin-left: -15px;
+}
+.rowright{
+    margin-right: -15px;
+}
+.rowreverseleft{
+    margin-left: 15px;
+}
+.rowreverseright{
+    margin-right: 15px;
+}
+.circle{
+    border-radius: 50%;
+}
+.bg-none{
+    background: none;
+}
+#UI ul li a{
+    color: white;
+}
+.introduction .bg-none{
+    border: none;
+}
+.download {
+    margin-top: 150px;    
+}
+.download h3{
+    color: white;
+    font-weight: bold;
+}
+.about{
+    padding: 40px 0;
+}
+.portfolio{
+    background-color: #F4F4F4;
+    min-height: 50px;
+    padding: 30px 0;
+}
+.services{
+    background-color: #FAFAFA;
+    min-height: 50px;
+    padding: 30px 0;
+}
+.services .fa{
+    color: #39C9DA;
+    font-size: 30px;
+    transition: 1s;
+}
+.services .single{
+    background-color: white;
+    padding: 20px 10px 10px;
+    transition: 1s;
+}
+.single button{
+    background-color: #4B4A4B;
+    color: white;
+}
+.single:hover{
+    background-color: #39C9DA;
+    color: white;
+}
+.single:hover .fa{
+    color: white;
+}
+.contact{
+    background-color: #F4F4F4;
+    min-height: 50px;
+    padding: 30px 0;
+}
+footer{
+    min-height: 50px;
+    background-color: #39C9DA;
+    padding: 15px 0 0;
+}
+.hover{
+    position: relative;
+}
+.read{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.read:hover{
+    color: #A3C3D5;
+}
+.hover:hover .read{
+    opacity: 1;
+    visibility: visible;
+}
